@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.env
+chroma_db/
+src/_archive_2026-10/v50_experiment_package/output/
+src/result/*.png
+transaction_records.json
+sellers_data_products.json
+src/evaluation_results/
+generated_parameters.json
+**/定价数据集/*.csv
+
+# 结果目录：材料/真值/Block 结果必须入库可审，仅夜间运行日志排除
+src/v51_sim/output/overnight/
+
+# 43MB Sim_static 三模型复核中间缓存（可由 _v51_sim_static_recheck.py 再生）
+src/v51_sim/output/sim_static_cache_recheck.jsonl
